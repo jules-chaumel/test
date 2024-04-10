@@ -1,0 +1,178 @@
+body {
+	 font-family: 'courrier';
+}
+h2 {
+	   font-family: 'Courrier';
+font-size: 26px;
+	line-height: 1.6;
+	letter-spacing: 2px;
+	font-weight: 100;
+}
+h1{
+	color: blue;
+	text-transform: uppercase;
+	font-size: 40px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+
+}
+p{
+	font-size: 18px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+a{
+	color: blue;
+	transition: color 0.7s ease;
+}
+a:hover {
+	color: white;
+	background-image: white;
+}
+
+
+img{
+border-radius: 50%;
+width: 50px;
+height: 65px;
+
+}
+.envelope {
+	width: 30px;
+	border-radius: 0%;
+}
+.envelope:hover {
+	width: 30px;
+	border-radius: 0%;
+}
+.icons {
+  padding: 30px;
+width: 80px;
+  height: 80px;
+  border-radius: 0%;
+}
+#insta {
+  padding: 20px;
+  width: 105px;
+  height: 80px;
+}
+.icons:hover {
+  
+  opacity: 0.5;
+   transition: 0.3s;
+}
+#insta:hover {
+  
+  opacity: 0.5;
+   transition: 0.3s;
+}
+.icons:active {
+      box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.8);
+        transition: 0.1s;
+
+}
+.hobbies{
+	font-size: 25px;
+	letter-spacing: 5px;
+	margin-top: 0px;
+	margin-right: 10px;
+}
+.icon-hobby{
+	width: 50px;
+	padding: 38px;
+	border-radius: 0%;
+	margin-bottom: 0px;
+
+}
+.icon-hobby:hover{
+	 transform: scaleX(-1);
+	width: 50px;
+	border-radius: 0%;
+	margin-bottom: 0px;
+}
+.icon-flag{
+	width: 25px;
+	height: 25px;
+	padding: 0px;
+	border-radius: 0%;
+}
+.icon-flag:hover {
+	
+	width: 50px;
+	border-radius: 5%;
+	transition: 3s;
+}
+
+div {
+	padding: 40px;
+	margin: 360px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	box-shadow: 0px 10px 30px grey;
+	border-radius: 0%;
+	padding: 40px 40px 40px 40px;
+	text-align: center;
+	background-color: #eaeaea;
+}
+.lang {
+height:150px;
+font-size: 20;
+}
+.languages {
+font-size: 80px;
+
+}
+.container{
+width:700px ;
+margin:40px auto ;
+}
+
+@media(max-width: 760px{
+	.container{
+		width: 600px;
+	}
+}
+@media(max-width: 500px{
+	.container{
+		width: 400px;
+
+
+
+.perso {
+  background-image: linear-gradient(
+    to right,
+    #54b3d6,
+    #54b3d6 50%,
+    #000 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  margin: 20px;
+    text-transform:uppercase;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.perso:before{
+  content: '';
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.perso:hover {
+ background-position: 0;
+}
+
+.perso:hover::before{
+  width: 100%;
+}
